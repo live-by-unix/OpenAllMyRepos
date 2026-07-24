@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>OpenAllMyRepos!</title>
+  <style>
+    body { font-family: Arial, sans-serif; padding: 15px; background-color: #f4f4f9; }
+    h1 { font-size: 18px; margin-bottom: 10px; color: #333; }
+    button { margin: 5px; padding: 10px 15px; border: none; border-radius: 4px; cursor: pointer; font-weight: bold; }
+    #openThemAll { background-color: #4caf50; color: white; }
+    #pauseBtn { background-color: #ff9800; color: white; }
+    #resumeBtn { background-color: #2196f3; color: white; }
+    #progressContainer { width: 100%; background-color: #ddd; margin-top: 15px; border-radius: 4px; overflow: hidden; }
+    #progressBar { width: 0%; height: 20px; background-color: #4caf50; text-align: center; color: white; line-height: 20px; transition: width 0.3s ease; }
+  </style>
+</head>
+<body>
+  <h1>OpenAllMyRepos!</h1>
+  <button id="openThemAll">OpenThemAll!</button>
+  <button id="pauseBtn">Pause</button>
+  <button id="resumeBtn">Resume</button>
+  <div id="progressContainer"><div id="progressBar">0%</div></div>
+  <script src="popup.js"></script>
+</body>
+</html>
